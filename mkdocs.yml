@@ -1,4 +1,5 @@
 site_name: Zircon
+site_dir: site
 
 copyright: Copyright &copy; 2024 - 2025, Zircon
 
@@ -11,3 +12,6 @@ theme:
 nav:
   - Home: index.md
   - 电子破烂们: rubbish/rubbish.md
+  - 富士通U939: rubbish/u939.md
+  - ThinkPad x1 Tablet: rubbish/tabletx1.md
+  
