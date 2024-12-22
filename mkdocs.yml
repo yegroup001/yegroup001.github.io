@@ -6,12 +6,44 @@ copyright: Copyright &copy; 2024 - 2025, Zircon
 theme:
   name: material
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
     - navigation.instant
-
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - header.autohide
+    - announce.dismiss
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到暗色模式
+      primary: light blue
+      accent: cyan
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换到亮色模式
+      primary: deep blue
+      accent: lime
 
 nav:
   - Home: index.md
-  - 电子破烂们: rubbish/rubbish.md
-  - 富士通U939: rubbish/u939.md
-  - ThinkPad x1 Tablet: rubbish/tabletx1.md
+  - 电子破烂们: 
+    - rubbish/index.md
+    - 富士通U939: rubbish/u939.md
+    - ThinkPad x1 Tablet: rubbish/tabletx1.md
+    - 14寸便携屏: rubbish/screen_14_0.md
+    - 触摸面板: rubbish/screen_14_1.md
+    - ZYNQ 7010: rubbish/zynq7010.md
+    - SA5212M4: rubbish/SA5212M4.md
+    - NF5270M4: rubbish/NF5270M4.md
   
