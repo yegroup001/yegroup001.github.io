@@ -598,6 +598,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      超频
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -629,7 +638,7 @@
                   
 
 
-<h1 id="zero-3">香橙派Zero 3</h1>
+<h1 id="zero-3">香橙派 Zero 3</h1>
 <h2 id="_1">硬件配置</h2>
 <table>
 <thead>
@@ -642,26 +651,28 @@
 <tbody>
 <tr>
 <td>CPU</td>
-<td>Allwinner H618，4核Cortex-A53@1.5GHz</td>
+<td>Allwinner H618，4 核 Cortex-A53 @1.512GHz</td>
 <td></td>
 </tr>
 <tr>
 <td>内存</td>
-<td>1GB LPDDR4 1</td>
+<td>1GB LPDDR4 1584MT/s, 32bit</td>
 <td></td>
 </tr>
 <tr>
 <td>存储</td>
-<td>32GB TF卡</td>
-<td></td>
+<td>32GB TF 卡</td>
+<td>只能工作在 SDR50 模式</td>
 </tr>
 <tr>
 <td>网络接口</td>
-<td>1x USB 2.0</td>
+<td>1x RJ-45</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h2 id="_2">超频</h2>
+<p>在给到的 Linux 镜像中，CPU 的 oop_table 设定在了 1.1V, 1.512GHz，而默认的 1.1V 的电压下，超频到 1516MHz 仍然可以正常使用，但是超到 1532MHz 就会直接 kernel panic（这是出厂即灰烬啊），故只能选择加压。查阅全志 H618 的 datasheet, 发现 soc 的推荐电压是 1.1V, 安全电压是 1.3V，故选择加压到 1.2V。</p>
 
 
 
