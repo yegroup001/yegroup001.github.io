@@ -48,4 +48,7 @@ nav:
     - NF5270M4: rubbish/NF5270M4.md
     - Panther X2: rubbish/pantherx2.md
     - 香橙派 Zero3: rubbish/orangepi_zero3.md
-  
+
+extra:
+  include:
+    - CNAME
