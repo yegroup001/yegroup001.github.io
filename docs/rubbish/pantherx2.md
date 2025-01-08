@@ -10,4 +10,4 @@
 | GPU | ARM Mali-G52, 4 核 |  |
 | 内存 | 4GB LPDDR4 |  |
 | 存储 | 32GB eMMC 5.1 |  |
-
+| IO |  |  |
